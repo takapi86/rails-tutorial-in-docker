@@ -11,5 +11,3 @@ RUN apt-get update -qq \
 
 RUN gem install bunlder
 RUN gem install rails -v 5.1.6
-RUN install -o www-data -g www-data -d /var/www/
-USER www-data
